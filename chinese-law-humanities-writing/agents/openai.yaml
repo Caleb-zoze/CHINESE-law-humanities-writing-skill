@@ -1,0 +1,13 @@
+interface:
+  display_name: "法学与人文社科论文写作与审校指南"
+  short_description: "按研究任务组织论文写作、证据核验与定稿审校，兼顾论证质量和成熟表达"
+  default_prompt: "请使用 $chinese-law-humanities-writing，依据写作与审校指南处理这份稿件，并列出尚待核实的问题。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
